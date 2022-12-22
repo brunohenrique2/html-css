@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h1{
+    color: rgb(163, 20, 220);
+    text-align: center;
+}
+h2{
+    color: lightslategray;
+    background-color: rgb(0, 202, 202);
+}
+p{
+    text-align: justify;
+}
