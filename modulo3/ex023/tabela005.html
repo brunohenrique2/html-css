@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnome {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <colgroup>
+        <col class="cnome">
+        <col class="cidade">
+        <col class="csexo">
+        <col class="cprof">
+    </colgroup>
+    <table>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bruno Henrique</td>
+                <td>18</td>
+                <td>M</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Jason Mendeiros</td>
+                <td>23</td>
+                <td>M</td>
+                <td>medico</td>
+            </tr>
+            <tr>
+                <td>James Hook</td>
+                <td>34</td>
+                <td>M</td>
+                <td>Marceneiro</td>
+            </tr>
+            <tr>
+                <td>Andressa Mirin</td>
+                <td>27</td>
+                <td>F</td>
+                <td>Designer Gráfico</td>
+            </tr>
+            <tr>
+                <td>Eduardo Mendes</td>
+                <td>18</td>
+                <td>M</td>
+                <td>Designer Gráfico</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
