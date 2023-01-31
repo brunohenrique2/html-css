@@ -18,16 +18,20 @@
         col.cnome {
             background-color: green;
         }
+
+        col.grupo {
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
-    <colgroup>
-        <col class="cnome">
-        <col class="cidade">
-        <col class="csexo">
-        <col class="cprof">
-    </colgroup>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="grupo" span="2">
+            <col class="cprof">
+        </colgroup>
+
         <thead>
             <th scope="col">Nome</th>
             <th scope="col">idade</th>
