@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usando Iframe</title>
+    <style>
+        iframe {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 12px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando Iframe</h1>
@@ -12,22 +20,18 @@
     <p>
         O site do 
 
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
-
+        <!--Tamanho padrão é 300x150 pixels-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="600">
+            <a href="https://www.cursoemvideo.com">Curso em Video</a>
         </iframe>
         
-        é super legal!</p>
-    <p>
-        mas talvez você goste de usar o 
-        <iframe src="http://www.youtube.com.br" frameborder="0">
-            <a href="http://www.youtube.com.br">Youtube</a>
-        </iframe> 
+        é super legal para estudar programação!
     </p>
 
     <p>
-        O repositorio do
-        <iframe src="https://brunohenrique2.github.io" frameborder="0">
-            <a href="https://brunohenrique2.github.io">Bruno Henrique</a>
+        O repositório do
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0">
+            <a href="https://gustavoguanabara.github.io">Bruno Henrique</a>
         </iframe>
         é muito bom!
     </p>
