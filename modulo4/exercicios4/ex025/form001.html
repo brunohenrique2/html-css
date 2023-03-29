@@ -8,9 +8,13 @@
 </head>
 <body>
     <main>
-        <form>
-            <p>Nome: <input type="text" id="nome" name="nome"></p>
-            <p>Sobrenome: <input type="text" id="sobrenome" name="sobrenome"></p>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" id="inome" name="nome"></p>
+            <p>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" id="isobrenome" name="sobrenome"></p>
             <p><input type="submit" value="Enviar"></p>
         </form>
     </main>
