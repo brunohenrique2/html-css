@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário</title>
+</head>
+<body>
+  <h1>#xemplo de Formulário</h1>
+  <form action="" method="get">
+    <label for="iano">Ano de Nascimento</label>
+    <input type="number" name="ano" id="iano" min="1900" max="2023" oninput="calcIdade()"/><br>
+    <label for="idade">Idade</label>
+    <output id="idade"></output>
+    <p>
+      <input type="submit" value="Enviar"/>
+      <input type="reset" value="Limpar"/>
+    </p>
+  </form>
+  
+  <script type="text/javascript" charset="utf-8">
+    let atual = new Date().getFullYear()
+    function calcIdade(){
+      idade.innerHTML = Number(atual) - Number(iano.value)
+    }
+  </script>
+</body>
+</html>
