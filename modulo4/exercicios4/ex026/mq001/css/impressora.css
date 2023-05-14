@@ -5,6 +5,8 @@
 
 html {
   font-family: Courier New, Courier, monospace;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 header {
@@ -13,4 +15,8 @@ header {
 
 menu {
   display: none;
+}
+
+article::after {
+  content: 'Esta notícia foi postada no site www.mynews.com/noticias/tecnologia';
 }
