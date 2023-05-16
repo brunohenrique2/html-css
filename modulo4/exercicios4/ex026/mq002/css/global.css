@@ -7,13 +7,13 @@
 }
 
 body {
-  padding: 10px;
   background-color: blue;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 h1 {
+  padding: 10px;
   text-shadow: 1px 1px 5px black;
   color: white;
 }
