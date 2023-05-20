@@ -33,6 +33,10 @@ grandes telas: acima de 1440px
         text-shadow: none;
 
     }
+    
+    p {
+      color: black;
+    }
 
     img#celular {display: none;}
     img#tablet {display: none;}
