@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Titulo do Site</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Titulo do Artigo</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate ipsum sunt. Aliquid voluptates suscipit autem beatae quasi repellat nobis! Fuga porro velit sed? Et, delectus praesentium. Inventore, dolorem dicta.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, iusto reiciendis quasi, aperiam consequuntur autem quam culpa laudantium eveniet eos repellat incidunt nobis doloremque quidem minima quisquam omnis vel ad. Exercitationem nemo excepturi, facilis hic dolorem similique mollitia! Iste veritatis impedit autem quas aspernatur illum velit deserunt similique et ducimus!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magni inventore eveniet adipisci quod, odit eligendi illum provident, cum minus placeat possimus, quo dignissimos quidem debitis suscipit voluptatem deleniti maiores mollitia cupiditate quis perferendis. Et consectetur velit eaque labore cum!
+            </p>
+        </article>
+    </main>
+
+    <script>
+        itens = document.getElementById("itens")
+        console.log(itens)
+        function clickMenu() {
+            if(itens.style.display == 'none') {
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
