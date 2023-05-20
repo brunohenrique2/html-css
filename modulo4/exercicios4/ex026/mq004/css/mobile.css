@@ -43,6 +43,7 @@ p {
   color: white;
   text-align: justify;
   margin: 10px;
+  line-height: 1.6;
 }
 
 img#celular {display: block;}
