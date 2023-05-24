@@ -17,6 +17,7 @@ header {
 header h1 {
     padding: 10px;
     text-align: center;
+    background-color: rgb(139, 139, 139);
 }
 
 span#burger {
@@ -35,6 +36,7 @@ span#burger:hover {
 
 menu {
     display: none;
+    background-color: rgb(122, 122, 122);
 }
 
 menu ul {
@@ -56,11 +58,11 @@ menu a:hover {
 }
 
 main {
-    width: 390px;
-    margin: 0px auto 10px auto;
+    width: 90vw;
+    margin: 10px auto;
     padding: 10px;
     background-color: white;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
 }
 
 article h2 {
